@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Patrick+Hand&display=swap');
+.cart-page-0{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.cart-page-0
+h2{
+  position: relative;
+  top:45vh;
+  color: crimson;
+  font-size: 34px;
+}
+
+.cart-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    width: 95vw;
+
+    margin-left: 10px;
+    min-height: calc(100vh - 80px);
+    
+    padding: 32px;
+
+
+}
+
+.price-btn-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-btn-div
+.price-header{
+  font-size: 30px;
+  color: darkslateblue;
+  font-family: 'Dancing Script', cursive;;
+
+}
+
+  .cart-page
+  .checkout-btn{
+
+    height: 40px;
+
+    margin: 5px;
+
+    font-size: 20px;
+    font-weight:bolder;
+
+    border: none;
+    border-radius: 7px;
+    
+    color: white;
+    background-color: rgb(50, 0, 88);;
+
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+
+
+  .cart-page
+.checkout-btn:hover {
+    padding-right: 50px;
+    padding-bottom: 30px;
+    height: auto;
+    background-color:green;
+    
+  }
+  
+  .cart-page
+  .checkout-btn:hover :after {
+    opacity: 1;
+    right: 0;
+    transform: rotate(45deg);
+  }

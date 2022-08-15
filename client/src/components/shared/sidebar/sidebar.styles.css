@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Patrick+Hand&display=swap');
+
+.sidebar{
+    width: 100%;
+    max-width: 360px;
+
+    height: 100%;
+    padding: 128px 24PX 32px;
+    
+
+    background-color: #ffffff; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.sidebar
+.close-btn{
+    position: fixed  ;
+    top: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+    background-color: transparent;
+    color: black;
+
+    font-size: 40px;
+    font-weight: bolder;
+
+    cursor: pointer;
+}
+
+.sidebar
+.sidebar-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 50px;
+}
+
+.sidebar
+.sidebar-items
+.sidebar-item{
+    font-size: 40px;
+    font-weight: bolder;
+
+    color: rgb(50, 0, 88);
+    margin-bottom: 30px;
+
+    cursor: pointer;
+
+    list-style: none;
+  }
+
+  .sidebar-item a{
+    text-decoration: none;
+}
+
+.sidebar-item a:hover{
+    color:rgb(170, 80, 254) ;
+    transition: 1s;
+}
+
+.sidebar-item a:hover::after{
+    color:rgb(255, 0, 217) ;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.sidebar
+.logout-btn{
+    font-size: 40px;
+    font-weight: bolder;
+
+    color: rgb(50, 0, 88);
+    margin-bottom: 30px;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    border: none;
+    background-color: transparent;
+}
+
+.sidebar
+.logout-btn:hover{
+    color:rgb(170, 80, 254) ;
+    transition: 1s;
+}
+
+.sidebar
+.logout-btn:hover:after{
+    color:rgb(255, 0, 217) ;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.backdrop{
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 100;
+    display: none ;
+    flex-direction: column-reverse;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgb(50, 0, 88);
+    opacity: 90%;
+
+}
+
+.show{
+
+    display: flex;
+}

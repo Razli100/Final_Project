@@ -1,0 +1,30 @@
+.main-footer{
+    background-color: rgb(50, 0, 88);
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: auto; 
+    
+
+}
+
+.main-footer h3{
+    color: white;
+}
+
+.main-footer
+.social-div
+.social-img{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(249, 219, 244);
+    margin: 16px;
+
+    border-radius: 20%;
+}

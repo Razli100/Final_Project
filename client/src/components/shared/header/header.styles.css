@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Patrick+Hand&display=swap');
+
+.main-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+    height: 80px;
+    width: 100%;
+    padding: 0;
+
+    /* min-height: 926px; */
+    min-width: 428px;
+
+    background-color: rgb(50, 0, 88);
+
+    z-index: 100;
+}
+
+.main-header h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    padding: 16px;
+}
+
+.cart {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header
+.cart
+.cart-counter{
+    display:inline-block;
+    width: 30px;
+    height:30px;
+    text-align:center;
+    margin-left:10px;
+    color: white;
+
+    border: solid white;
+    border-radius: 50%;
+}
+
+.cart
+img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.main-header .hamburger-btn{
+    height: 80px;
+    width: 70px;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    background-color: rgb(50, 0, 88);
+    border: none;
+
+    cursor: pointer;
+
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.hamurger-bar-l,
+.hamurger-bar-m,
+.hamurger-bar-s {
+    height: 8px;
+    background-color: black;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+
+.hamurger-bar-l{
+    width: 50px;
+    background-color: rgb(210, 204, 30);
+}
+.hamurger-bar-m{
+    width: 35px;
+    background-color: rgb(46, 165, 42);
+}
+
+.hamurger-bar-s{
+    width: 25px;
+    background-color: rgb(125, 0, 65);
+}

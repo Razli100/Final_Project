@@ -1,0 +1,205 @@
+.book-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+        
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    width: 100vw;
+    min-height: calc(100vh - 80px);
+
+    width: 90%;
+    min-width: 400px;
+
+}
+
+.book-main-div 
+.book-div{
+    margin:25px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    max-width: 1400px;
+    min-width: 400px;
+    width: 100%;
+
+    margin-left: 5%;
+
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem rgba(0,0,0,0.1);
+
+}
+
+.book-main-div 
+.book-div
+.img-div{
+    display: flex;
+
+    max-width: 350px;
+    max-height: 450px;
+
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(229, 229, 229);
+    transition: transform .5s;
+
+    margin-bottom: 18px;
+}
+
+.book-main-div 
+.book-div
+.img-div:hover{
+    transform: scale(1.25);
+}
+
+.book-main-div 
+.book-div 
+.description-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+
+    height: 80%;
+    width:40%;
+    
+    min-width: 300px;
+
+    font-size: 15px;
+    font-weight: 400;
+
+    overflow-y:auto;
+
+}
+
+.book-main-div 
+.book-div 
+.description-div
+.title-div{
+    font-size:22px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    position: sticky;
+    top: 0;
+    background-color: none;
+}
+
+.book-main-div 
+.book-div 
+.description-div
+.tech-details-div{
+    display: flex ;
+
+    font-style: italic;
+    font-weight:bold;
+    margin-bottom: 8px;
+
+}
+
+.book-main-div 
+.price-and-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin:25px;
+
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem rgba(0,0,0,0.1);
+
+    height: 400px;
+    width: 300px;
+}
+
+.book-main-div 
+.price-and-cart
+.price-div{
+    display: flex;
+    margin: 16px;
+        
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}
+
+.book-main-div 
+.price-and-cart
+.delivery-div 
+{
+    height: 100px;
+    margin: 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.book-main-div 
+.price-and-cart
+.delivery-days-div{
+    height: 100px;
+    margin: 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.book-main-div 
+.price-and-cart
+.delivery-in-stock-div{
+    height: 100px;
+    margin: 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.book-main-div 
+.price-and-cart
+.add-to-cart-btn{
+    height:25%;
+
+    margin: 5px;
+
+    font-size: 20px;
+    font-weight:bolder;
+
+    border: none;
+    border-radius: 7px;
+    
+    color: white;
+    background-color: darkcyan;
+
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+.book-main-div 
+.price-and-cart
+.add-to-cart-btn:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .book-main-div 
+  .price-and-cart
+  .add-to-cart-btn:hover {
+    padding-right: 50px;
+    background-color:rgb(50, 0, 88);
+  }
+  
+.book-main-div 
+.price-and-cart
+.add-to-cart-btn:hover :after {
+    opacity: 1;
+    right: 0;
+    transform: rotate(45deg);
+  }
+
+
+ 
